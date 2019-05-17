@@ -3,8 +3,6 @@ package utils;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class MathTest {
 
     @Test
@@ -13,7 +11,7 @@ public class MathTest {
         int number = 0;
         int increment = math.increment(number);
 
-        number++;
+        number += 2;
 
         Assert.assertEquals(number, increment);
     }
