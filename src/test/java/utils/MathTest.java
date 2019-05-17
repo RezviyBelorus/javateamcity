@@ -11,7 +11,7 @@ public class MathTest {
         int number = 0;
         int increment = math.increment(number);
 
-        number += 2;
+        number ++;
 
         Assert.assertEquals(number, increment);
     }
